@@ -31,12 +31,13 @@ class Caesar_cipher
       new_word.push(alphabet[new_index])
     end
 
-    puts new_word.join('')
+    # puts new_word.join('')
 
     join_new_word
   end
 end
 
+# driver code
 cipher = Caesar_cipher.new
 cipher.caesar_cipher('What a string!!', 14)
 
